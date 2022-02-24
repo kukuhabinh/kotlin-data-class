@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+com.learning kotlin-data-class,com.learning.dto,Gender,0,21,0,0,0,1,0,1,0,1
+com.learning kotlin-data-class,com.learning.dto,Person,0,36,0,0,0,1,0,5,0,5
+com.learning kotlin-data-class,com.learning.repository,PersonRepository.readFile.myType.new TypeToken() {...},0,3,0,0,0,1,0,1,0,1
+com.learning kotlin-data-class,com.learning.repository,PersonRepository,0,48,0,0,0,8,0,3,0,3
+com.learning kotlin-data-class,com.learning.service,PersonServiceKt,0,62,0,8,0,4,0,8,0,4
+com.learning kotlin-data-class,com.learning.service,PersonServiceKt.sortByBirthDate..inlined.sortedBy.new Comparator() {...},0,6,0,0,0,1,0,1,0,1
+com.learning kotlin-data-class,com.learning.service,PersonServiceKt.sortByName..inlined.sortedBy.new Comparator() {...},0,6,0,0,0,1,0,1,0,1
+com.learning kotlin-data-class,com.learning.ultils,FileUtils,3,0,0,0,1,0,1,0,1,0
+com.learning kotlin-data-class,com.learning.ultils,FileUtils.Companion,8,77,1,1,0,5,1,2,0,2

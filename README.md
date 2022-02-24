@@ -1,0 +1,1 @@
+# kotlin-data-class for learning

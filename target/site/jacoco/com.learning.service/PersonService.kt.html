@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PersonService.kt</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">com.learning kotlin-data-class</a> &gt; <a href="index.source.html" class="el_package">com.learning.service</a> &gt; <span class="el_source">PersonService.kt</span></div><h1>PersonService.kt</h1><pre class="source lang-java linenums">package com.learning.service
+
+import com.learning.dto.Gender
+import com.learning.dto.Person
+
+<span class="fc bfc" id="L6" title="All 4 branches covered.">fun List&lt;Person&gt;.findById(id: Int): Person? = this.firstOrNull { it.id == id }</span>
+
+<span class="fc bfc" id="L8" title="All 4 branches covered.">fun List&lt;Person&gt;.collectByGender(gender: Gender): List&lt;Person&gt; = this.filter { it.gender == gender }</span>
+
+<span class="fc" id="L10">fun List&lt;Person&gt;.sortByName(): List&lt;Person&gt; = this.sortedBy { it.name }</span>
+
+<span class="fc" id="L12">fun List&lt;Person&gt;.sortByBirthDate(): List&lt;Person&gt; = this.sortedBy { it.birthDate }</span>
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
