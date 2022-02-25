@@ -55,7 +55,7 @@ class PersonServiceTest {
     }
 
     @Test
-    fun `order by name SHOULD HAVE order PerB,perC,PerA`() {
+    fun `order by birthDate SHOULD HAVE order PerB,perC,PerA`() {
         listPerson.sortByBirthDate() shouldBe listOf(personB, personC, personA);
     }
 
